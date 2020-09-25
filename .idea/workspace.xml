@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="" />
+    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="laravel new project">
+      <change beforePath="$PROJECT_DIR$/.idea/finalprojectlaravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/finalprojectlaravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +24,16 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,9 +144,11 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i0GTXWFonB80Y56euRKnVd9U98" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -130,7 +156,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -147,11 +175,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601037106315</updated>
-      <workItem from="1601037107807" duration="311000" />
+      <workItem from="1601037107807" duration="3565000" />
     </task>
+    <task id="LOCAL-00001" summary="laravel new project">
+      <created>1601037573224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601037573224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laravel new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="laravel new project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1601038780106">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1601038780106">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1601038780106">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1601038780106">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
+    <state x="1538" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601038329889">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1538" y="31" width="1022" height="737" key="SettingsEditor/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038329889" />
+    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601037657556">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601037657556" />
+    <state x="1853" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601037636411">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1853" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601037636411" />
+    <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601040222823">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040222823" />
   </component>
 </project>
