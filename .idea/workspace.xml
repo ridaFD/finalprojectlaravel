@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="laravel new project">
-      <change beforePath="$PROJECT_DIR$/.idea/finalprojectlaravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/finalprojectlaravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="FinalProject-Twitter Clone Timeline">
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -156,10 +167,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -175,7 +192,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601037106315</updated>
-      <workItem from="1601037107807" duration="3565000" />
+      <workItem from="1601037107807" duration="5642000" />
+      <workItem from="1601061208600" duration="12107000" />
     </task>
     <task id="LOCAL-00001" summary="laravel new project">
       <created>1601037573224</created>
@@ -184,48 +202,83 @@
       <option name="project" value="LOCAL" />
       <updated>1601037573224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FinalProject-Twitter Clone Timeline">
+      <created>1601040884193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601040884194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laravel new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="laravel new project" />
+    <MESSAGE value="FinalProject-Twitter Clone Timeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="FinalProject-Twitter Clone Timeline" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1601038780106">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1601043511078">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1601038780106">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601043511078" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1601043511078">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1601038780106">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601043511078" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1601043511078">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1601038780106">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601043511078" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1601043511078">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038780106" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601043511078" />
     <state x="1538" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601038329889">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1538" y="31" width="1022" height="737" key="SettingsEditor/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038329889" />
-    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601037657556">
+    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601040889925">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601037657556" />
+    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040889925" />
     <state x="1853" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601037636411">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1853" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601037636411" />
-    <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601040222823">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="1713" y="699" key="run.anything.popup" timestamp="1601069328160">
+      <screen x="439" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1713" y="699" key="run.anything.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601069328160" />
+    <state x="1712" y="1139" width="672" height="678" key="search.everywhere.popup" timestamp="1601073771643">
+      <screen x="1366" y="1050" width="1366" height="768" />
     </state>
     <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040222823" />
+    <state x="1712" y="1139" width="672" height="678" key="search.everywhere.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601073771643" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home.blade.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
