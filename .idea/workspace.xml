@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,13 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="FinalProject-Twitter Clone Timeline">
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="56-Design the Timeline">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +197,9 @@
       <option name="presentableId" value="Default" />
       <updated>1601037106315</updated>
       <workItem from="1601037107807" duration="5642000" />
-      <workItem from="1601061208600" duration="12107000" />
+      <workItem from="1601061208600" duration="12804000" />
+      <workItem from="1601079983769" duration="16755000" />
+      <workItem from="1601146799666" duration="9326000" />
     </task>
     <task id="LOCAL-00001" summary="laravel new project">
       <created>1601037573224</created>
@@ -209,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601040884194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="56-Design the Timeline">
+      <created>1601076094604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601076094604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,11 +238,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laravel new project" />
     <MESSAGE value="FinalProject-Twitter Clone Timeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="FinalProject-Twitter Clone Timeline" />
+    <MESSAGE value="56-Design the Timeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="56-Design the Timeline" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1601043511078">
@@ -252,10 +267,11 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1538" y="31" width="1022" height="737" key="SettingsEditor/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601038329889" />
-    <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601040889925">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="1644" y="1183" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601076097382">
+      <screen x="1366" y="1050" width="1366" height="768" />
     </state>
     <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040889925" />
+    <state x="1644" y="1183" key="Vcs.Push.Dialog.v2/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601076097382" />
     <state x="1853" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601037636411">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -264,21 +280,11 @@
       <screen x="439" y="0" width="1680" height="1050" />
     </state>
     <state x="1713" y="699" key="run.anything.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601069328160" />
-    <state x="1712" y="1139" width="672" height="678" key="search.everywhere.popup" timestamp="1601073771643">
-      <screen x="1366" y="1050" width="1366" height="768" />
+    <state x="1370" y="1139" width="672" height="678" key="search.everywhere.popup" timestamp="1601155870487">
+      <screen x="1024" y="1050" width="1366" height="768" />
     </state>
+    <state x="1370" y="1139" width="672" height="678" key="search.everywhere.popup/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601155870487" />
     <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040222823" />
-    <state x="1712" y="1139" width="672" height="678" key="search.everywhere.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601073771643" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/home.blade.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="1712" y="1139" width="672" height="678" key="search.everywhere.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601130052306" />
   </component>
 </project>
