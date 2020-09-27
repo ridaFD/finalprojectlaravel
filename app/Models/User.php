@@ -42,7 +42,7 @@ class User extends Authenticatable
     ];
 
     public function getAvatarAttribute() {
-        return ('http://lorempixel.com/40/40/sports/' . $this->id);
+        return ('http://lorempixel.com/200/200/sports/' . $this->id);
     }
 
     public function timeline() {
@@ -68,5 +68,10 @@ class User extends Authenticatable
 
     public function follows() {
         return $this->belongsToMany(User::class, 'follows', 'user_id', 'following_user_id');
+    }
+
+    public function getRouteKeyName()
+    {
+        return 'name';
     }
 }
