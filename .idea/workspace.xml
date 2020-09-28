@@ -22,17 +22,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="64-File Storage and Custom Avatars">
-      <change afterPath="$PROJECT_DIR$/public/images/default-avatar.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/explore.blade.php" afterDir="false" />
+    <list default="true" id="08f3a299-82c9-4e9c-91ee-0a786861264a" name="Default Changelist" comment="65-Build the Explore Users Page">
+      <change afterPath="$PROJECT_DIR$/resources/views/components/blue-button.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Followable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Followable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_timeline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +224,7 @@
       <workItem from="1601146799666" duration="23321000" />
       <workItem from="1601203870510" duration="742000" />
       <workItem from="1601205340519" duration="3767000" />
-      <workItem from="1601239019491" duration="31333000" />
+      <workItem from="1601239019491" duration="39730000" />
     </task>
     <task id="LOCAL-00001" summary="laravel new project">
       <created>1601037573224</created>
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601290610555</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="65-Build the Explore Users Page">
+      <created>1601296631946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601296631946</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +324,8 @@
     <MESSAGE value="62-Build the Follow Form" />
     <MESSAGE value="63-Profile Authorization Logic" />
     <MESSAGE value="64-File Storage and Custom Avatars" />
-    <option name="LAST_COMMIT_MESSAGE" value="64-File Storage and Custom Avatars" />
+    <MESSAGE value="65-Build the Explore Users Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="65-Build the Explore Users Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1413" y="1249" width="579" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601165946376">
@@ -372,10 +380,10 @@
       <screen x="1024" y="1050" width="1366" height="768" />
     </state>
     <state x="1436" y="1178" width="639" height="524" key="StructurePopup/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601280438454" />
-    <state x="1302" y="1183" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601290618661">
+    <state x="1302" y="1183" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601296639260">
       <screen x="1024" y="1050" width="1366" height="768" />
     </state>
-    <state x="1302" y="1183" width="800" height="535" key="Vcs.Push.Dialog.v2/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601290618661" />
+    <state x="1302" y="1183" width="800" height="535" key="Vcs.Push.Dialog.v2/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601296639260" />
     <state x="1644" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040889925" />
     <state x="1644" y="1183" key="Vcs.Push.Dialog.v2/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601076097382" />
     <state x="1853" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601037636411">
@@ -391,10 +399,10 @@
     </state>
     <state x="2060" y="1561" width="672" height="677" key="run.anything.popup/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601254093353" />
     <state x="1713" y="699" key="run.anything.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601069328160" />
-    <state x="1370" y="1139" width="672" height="678" key="search.everywhere.popup" timestamp="1601296464329">
+    <state x="1370" y="1139" width="672" height="678" key="search.everywhere.popup" timestamp="1601307218518">
       <screen x="1024" y="1050" width="1366" height="768" />
     </state>
-    <state x="1370" y="1139" width="672" height="678" key="search.everywhere.popup/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601296464329" />
+    <state x="1370" y="1139" width="672" height="678" key="search.everywhere.popup/1024.1050.1366.768/388.0.1680.1050/0.1050.1024.768@1024.1050.1366.768" timestamp="1601307218518" />
     <state x="1712" y="89" width="672" height="678" key="search.everywhere.popup/1366.0.1366.768/0.27.1366.741@1366.0.1366.768" timestamp="1601040222823" />
     <state x="1712" y="1139" width="672" height="678" key="search.everywhere.popup/1366.1050.1366.768/439.0.1680.1050/0.1050.1366.768@1366.1050.1366.768" timestamp="1601130052306" />
   </component>

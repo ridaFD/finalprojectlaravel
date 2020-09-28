@@ -1,8 +1,9 @@
+<div class="bg-gray-200 border border-gray-300 rounded-lg py-4 px-6" style="height: fit-content">
 <h3 class="font-bold text-lg mb-4 h-">Following</h3>
 
 <ul>
     @forelse(auth()->user()->follows as $user)
-        <li class="mb-4">
+        <li class="{{ $loop->last ? '' : 'mb-4' }}">
             <div>
                 <a href="{{ route('profile', $user) }}" class="flex items-center text-sm">
                     <img
@@ -21,3 +22,4 @@
     @endforelse
 </ul>
 
+</div>

@@ -2,12 +2,13 @@
     <form method="post" action="/tweets">
         @csrf
 
-                <textarea
-                    name="body"
-                    id=""
-                    class="w-full outline-none"
-                    placeholder="What's up doc?"
-                ></textarea>
+            <textarea
+                name="body"
+                id=""
+                class="w-full outline-none"
+                placeholder="What's up doc?"
+                required
+            ></textarea>
 
         <hr class="my-4">
 
@@ -15,17 +16,10 @@
             <img
                 src="{{ auth()->user()->avatar }}"
                 alt="your avatar"
-                class="rounded-full mr-2"
-                width="50"
-                height="50"
+                class="rounded-full mr-2 h-10 w-10"
             >
 
-            <button
-                type="submit"
-                class="bg-blue-500 rounded-lg shadow py-2 px-6 text-white"
-            >
-                Publish
-            </button>
+            <x-blue-button></x-blue-button>
         </footer>
     </form>
 
