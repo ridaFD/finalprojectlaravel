@@ -55,13 +55,14 @@ class User extends Authenticatable
        // include all of the user's tweets
         // as well as the tweets of everyone
         // they follow ... in descending order by date.
-
         $friends = $this->follows()->pluck('id');
+//        dd($friends);
 
         return Tweet::whereIn('user_id', $friends)
             ->orWhere('user_id', $this->id)
+            ->withLikes()
             ->latest()
-            ->paginate(50);
+            ->paginate(10);
     }
 
     public function tweets() {
